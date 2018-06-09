@@ -7,18 +7,24 @@ hello();
 
 
 function checkAmPm(currentHour) {
+
+  var result; //ローカル変数（関数内でのみ使える）
   if(currentHour < 12){
-    console("AM"+currentHour+"時");
+    return "午前"+currentHour+"時";
   }
   else if (currentHour == 12) {
-    console.log("正午");
+    return "正午"+currentHour+"時";
   }
   else{
-    console.log("PM"+currentHour+"時");
+    return "午後";
   }
 }
+
+var currentHour = 11; //グローバル変数（どこでも使える）
+
 
 // 関数のよびだし
 　checkAmPm(11);
   checkAmPm(12);
   checkAmPm(23);
+
