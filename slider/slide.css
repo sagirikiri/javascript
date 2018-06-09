@@ -1,0 +1,8 @@
+.slider .slideInner li.show{
+  opacity: 1;
+}
+
+
+.slider .nav li.current{
+  background: #aaa;
+}
