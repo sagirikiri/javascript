@@ -1,0 +1,11 @@
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+/*相手の投稿の色を設定している*/
+
+li.messageOther{
+  color:#EE6557;
+}
+
